@@ -20,7 +20,7 @@
     $age = age(INTRO_AGE);
     $gender = gender(INTRO_GENDER);
 
-    
+
     $player = verif_user($name, $pseudo, $age, $gender);
 
     // Start
@@ -34,6 +34,14 @@
     echo GAME_START_CHOICE_2;
     echo GAME_START_CHOICE_3;
     echo $line;
+
+    $choice = readline();
+
+    echo choice($choice);
+
+
+
+
     
 
 ?>

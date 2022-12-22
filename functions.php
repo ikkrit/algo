@@ -50,4 +50,29 @@
         }
     }
 
+    // LANCER DE DES
+
+    function dice()
+    {
+        $dice = rand(1,6);
+        return $dice;
+    }
+
+    function choice($choice)
+    {
+        switch($choice) {
+            case 1:
+                return "Tu as choisis la Lumiere";
+                break;
+            case 2:
+                return "Tu as choisis les Tenebre";
+                break;
+            case 3:
+                return "Tu t'en fout";
+                break;
+            default:
+                return false;
+        }
+    }
+
 ?>
