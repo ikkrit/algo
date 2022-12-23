@@ -58,7 +58,7 @@
         return $dice;
     }
 
-    function choice($choice)
+    function choice_1($choice)
     {
         switch($choice) {
             case 1:
@@ -68,7 +68,24 @@
                 return "Tu as choisis les Tenebre";
                 break;
             case 3:
-                return "Tu t'en fout";
+                return "Ok tu t'en fout";
+                break;
+            default:
+                return false;
+        }
+    }
+
+    function choice_2($choice)
+    {
+        switch($choice) {
+            case 1:
+                return "Le combat commence";
+                break;
+            case 2:
+                return "Tu est un lâche, bah tu te barre";
+                break;
+            case 3:
+                return "Bonne etat d'esprit";
                 break;
             default:
                 return false;

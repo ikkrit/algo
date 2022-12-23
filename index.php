@@ -28,7 +28,7 @@
     echo "Ok {$player['name']}\n";
     echo $line;
     echo GAME_START;
-    echo GAME_CHOICE;
+    echo GAME_CHOICE_1;
     echo $line;
     echo GAME_START_CHOICE_1;
     echo GAME_START_CHOICE_2;
@@ -37,7 +37,23 @@
 
     $choice = readline();
 
-    echo choice($choice);
+    echo choice_1($choice);
+
+    echo $line;
+    echo GAME_START_TEXT_1;
+    echo GAME_START_TEXT_2;
+    echo GAME_START_TEXT_3;
+    echo $line;
+    echo GAME_CHOICE_2;
+    echo GAME_START_CHOICE_4;
+    echo GAME_START_CHOICE_5;
+    echo GAME_START_CHOICE_6;
+    echo $line;
+
+    $choice_2 = readline();
+    echo choice_2($choice_2);
+
+
 
 
 
