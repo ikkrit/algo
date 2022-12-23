@@ -3,6 +3,12 @@
     include "constant/intro_const.php";
     include "constant/game_const.php";
     include "functions.php";
+    include "Party.php";
+
+
+    $party = new Party(45,"gardan",4,4561,"14/01/2000");
+    $party->definition();
+    exit;
 
     // DEBUT DU JEUX // 
 
