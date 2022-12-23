@@ -52,6 +52,7 @@
 
     $choice_2 = readline();
     echo choice_2($choice_2);
+    $choice_2 == 1 ? $battle = true : $battle = false;
 
 
 
